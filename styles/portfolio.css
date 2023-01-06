@@ -220,6 +220,39 @@ main {
 
 .resume-btn {
     margin: 20px 0;
+    padding-bottom: 113px;
     display: flex;
     justify-content: center;
+}
+
+/* Contact styles */
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 117px;
+    padding: 130px 200px;
+    background: #FFF8F3;
+}
+
+.contact-title{
+    font-size: 35px;
+    color: #181818;
+    padding-bottom: 20px;
+}
+
+.contact-description {
+    color: #474747;
+    padding-bottom: 30px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
 }
